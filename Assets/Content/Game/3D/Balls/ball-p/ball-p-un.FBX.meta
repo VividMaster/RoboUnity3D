@@ -1,24 +1,28 @@
 fileFormatVersion: 2
-guid: 1a69f652a9aa2b246b7f5c259eac11cd
-timeCreated: 1511213165
+guid: 4b961f7e5c8399644b78f899d6b5032a
+timeCreated: 1511282069
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: ball-tech
     2300000: //RootNode
     3300000: //RootNode
     4300000: Ball_p
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ball-tech
+    second: {fileID: 2100000, guid: 347719f3b200cf849b422919787d8b67, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -56,8 +60,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
